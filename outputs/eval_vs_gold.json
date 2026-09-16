@@ -1,0 +1,405 @@
+{
+  "summary": {
+    "gold_people": 29,
+    "matched_people": 29,
+    "missing_people": 0,
+    "extra_people": 0,
+    "mean_oks": 0.9662,
+    "oks50": 0.9655,
+    "oks75": 0.9655,
+    "findings": {
+      "truot_han": 7,
+      "nham_nguoi": 4,
+      "lech_nhe": 1
+    }
+  },
+  "per_image": [
+    {
+      "image": "train_01.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 0.0188,
+          "findings": [
+            {
+              "type": "truot_han",
+              "label": "Trượt hẳn",
+              "keypoint": "nose",
+              "detail": "Lệch 47 px = 5.1 lần bán kính dung sai của khớp này."
+            },
+            {
+              "type": "truot_han",
+              "label": "Trượt hẳn",
+              "keypoint": "left_eye",
+              "detail": "Lệch 40 px = 4.5 lần bán kính dung sai của khớp này."
+            },
+            {
+              "type": "truot_han",
+              "label": "Trượt hẳn",
+              "keypoint": "right_eye",
+              "detail": "Lệch 55 px = 6.2 lần bán kính dung sai của khớp này."
+            },
+            {
+              "type": "truot_han",
+              "label": "Trượt hẳn",
+              "keypoint": "right_ear",
+              "detail": "Lệch 70 px = 5.6 lần bán kính dung sai của khớp này."
+            },
+            {
+              "type": "lech_nhe",
+              "label": "Lệch nhẹ",
+              "keypoint": "left_shoulder",
+              "detail": "Lệch 49 px = 1.7 lần bán kính dung sai. Sửa được, ít hại."
+            },
+            {
+              "type": "nham_nguoi",
+              "label": "Nhầm người",
+              "keypoint": "right_shoulder",
+              "detail": "Chấm này gần right_shoulder của một người khác trong ảnh hơn là của người bạn đang gán."
+            },
+            {
+              "type": "truot_han",
+              "label": "Trượt hẳn",
+              "keypoint": "left_elbow",
+              "detail": "Lệch 101 px = 3.9 lần bán kính dung sai của khớp này."
+            },
+            {
+              "type": "nham_nguoi",
+              "label": "Nhầm người",
+              "keypoint": "right_elbow",
+              "detail": "Chấm này gần right_elbow của một người khác trong ảnh hơn là của người bạn đang gán."
+            },
+            {
+              "type": "truot_han",
+              "label": "Trượt hẳn",
+              "keypoint": "left_wrist",
+              "detail": "Lệch 108 px = 4.9 lần bán kính dung sai của khớp này."
+            },
+            {
+              "type": "nham_nguoi",
+              "label": "Nhầm người",
+              "keypoint": "right_wrist",
+              "detail": "Chấm này gần right_wrist của một người khác trong ảnh hơn là của người bạn đang gán."
+            },
+            {
+              "type": "truot_han",
+              "label": "Trượt hẳn",
+              "keypoint": "left_hip",
+              "detail": "Lệch 145 px = 3.8 lần bán kính dung sai của khớp này."
+            },
+            {
+              "type": "nham_nguoi",
+              "label": "Nhầm người",
+              "keypoint": "right_hip",
+              "detail": "Chấm này gần right_hip của một người khác trong ảnh hơn là của người bạn đang gán."
+            }
+          ]
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_02.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_03.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_04.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_05.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_06.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_07.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_08.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_09.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_10.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_11.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_12.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_13.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 3,
+          "your_person": 3,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_14.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_15.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_16.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_17.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_18.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_19.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        },
+        {
+          "gold_person": 2,
+          "your_person": 2,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "image": "train_20.jpg",
+      "matches": [
+        {
+          "gold_person": 1,
+          "your_person": 1,
+          "oks": 1.0,
+          "findings": []
+        }
+      ],
+      "missing": 0,
+      "extra": 0
+    }
+  ]
+}
